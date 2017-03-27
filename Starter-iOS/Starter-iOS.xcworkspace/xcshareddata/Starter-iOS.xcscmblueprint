@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "83B2010CD4ABF654AC5DB837DF10EE23BCC661D1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "83B2010CD4ABF654AC5DB837DF10EE23BCC661D1" : 9223372036854775807,
+    "AD3636CE80FFF42F868C674E884B875E9887922A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "29E8CEFF-7981-4A64-BA77-1162DAB9CB1A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "83B2010CD4ABF654AC5DB837DF10EE23BCC661D1" : "Starter-iOS\/",
+    "AD3636CE80FFF42F868C674E884B875E9887922A" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Starter-iOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Starter-iOS\/Starter-iOS.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/arunlj561\/Starter-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "83B2010CD4ABF654AC5DB837DF10EE23BCC661D1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.heroku.com\/socket-vovo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD3636CE80FFF42F868C674E884B875E9887922A"
+    }
+  ]
+}
