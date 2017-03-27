@@ -17,5 +17,5 @@ target 'Starter-iOS' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'REFrostedViewController', '~> 2.4'
-
+  pod 'AJIBDesignables', :git => 'https://github.com/arunlj561/AJIBDesignables'
 end

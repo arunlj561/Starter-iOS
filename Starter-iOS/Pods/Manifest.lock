@@ -1,4 +1,5 @@
 PODS:
+  - AJIBDesignables (0.1.0)
   - Alamofire (4.4.0)
   - AlamofireObjectMapper (4.1.0):
     - Alamofire (~> 4.1)
@@ -15,6 +16,7 @@ PODS:
   - RxSwift (3.2.0)
 
 DEPENDENCIES:
+  - AJIBDesignables (from `https://github.com/arunlj561/AJIBDesignables`)
   - Alamofire
   - AlamofireObjectMapper
   - AutoCoding
@@ -26,7 +28,17 @@ DEPENDENCIES:
   - RxCocoa
   - RxSwift
 
+EXTERNAL SOURCES:
+  AJIBDesignables:
+    :git: https://github.com/arunlj561/AJIBDesignables
+
+CHECKOUT OPTIONS:
+  AJIBDesignables:
+    :commit: 7bd472fd88c90707d2cb4028d228ab6d31a7cf30
+    :git: https://github.com/arunlj561/AJIBDesignables
+
 SPEC CHECKSUMS:
+  AJIBDesignables: a2a92f16ff57c26fb0535ae05442c97258c84796
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
   AutoCoding: 56fa46dbfa89d44189a26ce64e6a470ed8ff4661
@@ -39,6 +51,6 @@ SPEC CHECKSUMS:
   RxCocoa: ccdf43101a70407097a29082f648ba1676075b30
   RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
 
-PODFILE CHECKSUM: 39b0568ca25bd316845c31788de97b20f12f474e
+PODFILE CHECKSUM: 262c8dbd0a6a992b9b02c3494868b67bbe7d0071
 
 COCOAPODS: 1.2.0

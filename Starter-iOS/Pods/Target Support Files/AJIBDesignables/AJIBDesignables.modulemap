@@ -1,0 +1,6 @@
+framework module AJIBDesignables {
+  umbrella header "AJIBDesignables-umbrella.h"
+
+  export *
+  module * { export * }
+}

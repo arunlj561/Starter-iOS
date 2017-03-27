@@ -1,0 +1,22 @@
+{
+  "name": "AJIBDesignables",
+  "version": "0.1.0",
+  "summary": "A UIView Extension, for customising Views.",
+  "description": "A UIView Extension, for customising Views. UIView, UILabel, UITextView, UITextField, UIImageView containing property into storyboard, Corner radius, border width",
+  "homepage": "https://github.com/arunlj561/AJIBDesignables",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "arunlj561": "arunlj561@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/arunlj561/AJIBDesignables.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AJIBDesignables/Classes/**/*"
+}
