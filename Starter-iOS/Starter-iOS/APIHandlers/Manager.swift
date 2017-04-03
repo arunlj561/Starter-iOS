@@ -94,5 +94,24 @@ class Manager: SessionManager {
     }
 
     
+    func requestUrlForArrayResponse<T:Mappable>(url: URLRequestConvertible, withSuccess success:@escaping (_ response: [T]) -> ()) {
+        Utils.addHUD()
+        Alamofire.request(url).responseArray { (response:DataResponse<[T]>) in
+            Utils.hideHUD()
+//            print(“response.result.isSuccess \(response.result.isSuccess)“)
+            guard response.result.isSuccess else{
+                Utils.showAlert(message: (response.result.error?.localizedDescription)!, action: {
+                    
+                })
+                return
+            }
+            
+            success(response.result.value!)
+            
+        }
+        
+        
+    }
+    
     
 }
