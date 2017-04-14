@@ -10,6 +10,7 @@ import UIKit
 import Alamofire
 import RxCocoa
 import RxSwift
+import ObjectMapper
 
 
 
@@ -27,6 +28,7 @@ class LoginViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
+        
         //Create observable
         let loginTextValid = username.rx.text.orEmpty
             .map{ $0.isValidEmail() == true}
@@ -81,6 +83,8 @@ class LoginViewController: BaseViewController {
             .subscribe(onNext: {[weak self] in self?.actionSignUp((self?.signUpButton)!)}).addDisposableTo(disposeBag)
         
 
+        Employee(map: Map(mappingType: .fromJSON, JSON: ["userID":"1234","firstName":"arun","LastName":"last"]))?.saveAsync()
+        Employee(map: Map(mappingType: .fromJSON, JSON: ["userID":"12","firstName":"arun","LastName":"last"]))?.save()
     
     }
 
@@ -93,7 +97,7 @@ class LoginViewController: BaseViewController {
     
     func actionLoginUser(_ sender: UIButton) {
         
-        APIHandler.loginUser(username: username.text!, password: password.text!) { (logedUser:User) in
+        LoginHandler.loginUser(username: username.text!, password: password.text!) { (logedUser:User) in
             PIVCManager.sharedInstance.currentUser = logedUser
             PIVCManager.sharedInstance.currentUser?.saveUser()
             self.performSegue(withIdentifier: AppConstants.StoryBoardID.OTPVerifyViewController.rawValue, sender: logedUser)

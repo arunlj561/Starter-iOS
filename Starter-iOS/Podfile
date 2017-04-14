@@ -7,15 +7,16 @@ target 'Starter-iOS' do
 
   # Pods for Starter-iOS
 
-  pod 'HexColors'
+
   pod 'MBProgressHUD'
-  pod 'AutoCoding'
-  pod 'IQDropDownTextField'
   pod 'Alamofire'
   pod 'AlamofireObjectMapper'
   pod 'Reqres'
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'RealmSwift'
   pod 'REFrostedViewController', '~> 2.4'
+#  pod 'AlamofireImage'
+  pod 'Kingfisher'
   pod 'AJIBDesignables', :git => 'https://github.com/arunlj561/AJIBDesignables'
 end

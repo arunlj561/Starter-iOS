@@ -73,7 +73,7 @@ class SignUpTableViewController: BaseTableViewController {
     
      func actionSignUpUser(_ sender: UIButton) {
         
-        APIHandler.registerUser(param: ["name":firstName.text! + lastName.text!,
+        LoginHandler.registerUser(param: ["name":firstName.text! + lastName.text!,
                                         "agentId" : agentID.text!,
                                         "mobileNo": mobileNo.text!]) { (registedUser:User) in
                 PIVCManager.sharedInstance.currentUser = registedUser

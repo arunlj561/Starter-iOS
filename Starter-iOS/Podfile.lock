@@ -4,11 +4,14 @@ PODS:
   - AlamofireObjectMapper (4.1.0):
     - Alamofire (~> 4.1)
     - ObjectMapper (~> 2.0)
-  - AutoCoding (2.2.2)
-  - HexColors (5.0.0)
-  - IQDropDownTextField (1.1.0)
+  - Kingfisher (3.6.1)
   - MBProgressHUD (1.0.0)
   - ObjectMapper (2.2.5)
+  - Realm (2.5.0):
+    - Realm/Headers (= 2.5.0)
+  - Realm/Headers (2.5.0)
+  - RealmSwift (2.5.0):
+    - Realm (= 2.5.0)
   - REFrostedViewController (2.4.8)
   - Reqres (2.0.0)
   - RxCocoa (3.2.0):
@@ -19,10 +22,9 @@ DEPENDENCIES:
   - AJIBDesignables (from `https://github.com/arunlj561/AJIBDesignables`)
   - Alamofire
   - AlamofireObjectMapper
-  - AutoCoding
-  - HexColors
-  - IQDropDownTextField
+  - Kingfisher
   - MBProgressHUD
+  - RealmSwift
   - REFrostedViewController (~> 2.4)
   - Reqres
   - RxCocoa
@@ -41,16 +43,16 @@ SPEC CHECKSUMS:
   AJIBDesignables: a2a92f16ff57c26fb0535ae05442c97258c84796
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
-  AutoCoding: 56fa46dbfa89d44189a26ce64e6a470ed8ff4661
-  HexColors: db19c76b0a9e0bcac25b483d316f303242dae6d4
-  IQDropDownTextField: 614f79ca905529c992045eaa112d0fc9ebb875d1
+  Kingfisher: 2f31cb75f3e98d3d4c406cbdcd9b263e956cfa67
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   ObjectMapper: fb30f71e08470d1e5a20b199fafe1246281db898
+  Realm: 62abce501668580092d2be9b6ba7324a3d5f906a
+  RealmSwift: 9f1a8f624f2f153410115c2cb7d486be9976565d
   REFrostedViewController: a893b4979ba1f200c547aef9ff4c3fd5a18f5923
   Reqres: 7027a575c1539c9635ff11ecf04d49cdf30a2f0a
   RxCocoa: ccdf43101a70407097a29082f648ba1676075b30
   RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
 
-PODFILE CHECKSUM: 262c8dbd0a6a992b9b02c3494868b67bbe7d0071
+PODFILE CHECKSUM: fe0ccb1c7091f447f65b92b054214c973511e5b1
 
 COCOAPODS: 1.2.0

@@ -8,6 +8,7 @@
 
 import UIKit
 import RxSwift
+import RealmSwift
 
 struct datasource<T> {
     var items = [T]()
@@ -22,20 +23,11 @@ class BaseViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        var intData = 5
-        withUnsafeMutablePointer(to: &intData) { ( p)  in
-            
-        }
-        
-        
-        
-        
+       
+
     }
     
-    func ptrFromAddress(p:UnsafeMutablePointer<Int>) -> UnsafeMutablePointer<Int>
-    {
-        return p
-    }
+    
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
