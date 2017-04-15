@@ -12,6 +12,7 @@ target 'Starter-iOS' do
   pod 'Alamofire'
   pod 'AlamofireObjectMapper'
   pod 'Reqres'
+  pod 'AutoCoding'
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'RealmSwift'

@@ -7,7 +7,7 @@
 
 import Foundation 
 import ObjectMapper
-
+import AutoCoding
 
 class RootClass : NSObject, Mappable{
 

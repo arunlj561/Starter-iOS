@@ -30,6 +30,11 @@
 		7F16F53D1EA0FD9500943C28 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F16F5381EA0FD9500943C28 /* Async.swift */; };
 		7F16F53E1EA0FD9500943C28 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F16F5391EA0FD9500943C28 /* Utils.swift */; };
 		7F16F53F1EA0FD9500943C28 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F16F53A1EA0FD9500943C28 /* AppConstants.swift */; };
+		7F2C9AD71EA1DD7F00401471 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2C9AD41EA1DD7F00401471 /* Employee.swift */; };
+		7F2C9AD81EA1DD7F00401471 /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2C9AD51EA1DD7F00401471 /* EmployeeViewController.swift */; };
+		7F2C9AD91EA1DD7F00401471 /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2C9AD61EA1DD7F00401471 /* EmployeeTableViewCell.swift */; };
+		7F2C9ADC1EA1E05300401471 /* PresentFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2C9ADB1EA1E05300401471 /* PresentFilterViewController.swift */; };
+		7F2C9ADE1EA1E06500401471 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2C9ADD1EA1E06500401471 /* PushViewController.swift */; };
 		7F650BAA1E9CA72E004BF7B8 /* Starter_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F650BA91E9CA72E004BF7B8 /* Starter_iOSTests.swift */; };
 		7FAF61BA1E669BAC008A0056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF61B91E669BAC008A0056 /* AppDelegate.swift */; };
 		7FAF61BF1E669BAC008A0056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF61BD1E669BAC008A0056 /* Main.storyboard */; };
@@ -79,6 +84,11 @@
 		7F16F5381EA0FD9500943C28 /* Async.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Utility/Async.swift; sourceTree = "<group>"; };
 		7F16F5391EA0FD9500943C28 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Utility/Utils.swift; sourceTree = "<group>"; };
 		7F16F53A1EA0FD9500943C28 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppConstants.swift; path = Utility/AppConstants.swift; sourceTree = "<group>"; };
+		7F2C9AD41EA1DD7F00401471 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Employee.swift; path = Employee/Employee.swift; sourceTree = "<group>"; };
+		7F2C9AD51EA1DD7F00401471 /* EmployeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeViewController.swift; path = Employee/EmployeeViewController.swift; sourceTree = "<group>"; };
+		7F2C9AD61EA1DD7F00401471 /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeTableViewCell.swift; path = Employee/EmployeeTableViewCell.swift; sourceTree = "<group>"; };
+		7F2C9ADB1EA1E05300401471 /* PresentFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PresentFilterViewController.swift; path = Employee/PresentFilterViewController.swift; sourceTree = "<group>"; };
+		7F2C9ADD1EA1E06500401471 /* PushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushViewController.swift; path = Employee/PushViewController.swift; sourceTree = "<group>"; };
 		7F650BA71E9CA72E004BF7B8 /* Starter-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Starter-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F650BA91E9CA72E004BF7B8 /* Starter_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starter_iOSTests.swift; sourceTree = "<group>"; };
 		7F650BAB1E9CA72E004BF7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -172,6 +182,18 @@
 			name = Utility;
 			sourceTree = "<group>";
 		};
+		7F2C9ADA1EA1DD8D00401471 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				7F2C9AD41EA1DD7F00401471 /* Employee.swift */,
+				7F2C9AD51EA1DD7F00401471 /* EmployeeViewController.swift */,
+				7F2C9AD61EA1DD7F00401471 /* EmployeeTableViewCell.swift */,
+				7F2C9ADB1EA1E05300401471 /* PresentFilterViewController.swift */,
+				7F2C9ADD1EA1E06500401471 /* PushViewController.swift */,
+			);
+			name = Employee;
+			sourceTree = "<group>";
+		};
 		7F650BA81E9CA72E004BF7B8 /* Starter-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +235,7 @@
 				7FE9BDDE1E697F050058D294 /* GlobalModels */,
 				7FE9BDE01E697F690058D294 /* LoginSignUp */,
 				7FE9BE021E6980BD0058D294 /* HomeMenuClasses */,
+				7F2C9ADA1EA1DD8D00401471 /* Employee */,
 				7FE9BDDF1E697F2F0058D294 /* BaseClasses */,
 				7F16F52A1EA0FD3600943C28 /* KeyChainWrapper */,
 				7F16F5351EA0FD5A00943C28 /* Manager */,
@@ -436,6 +459,7 @@
 				7F16F5201EA0FCE900943C28 /* LoginHandler.swift in Sources */,
 				7FE9BDF71E697FE40058D294 /* BaseViewController.swift in Sources */,
 				7F16F53E1EA0FD9500943C28 /* Utils.swift in Sources */,
+				7F2C9AD91EA1DD7F00401471 /* EmployeeTableViewCell.swift in Sources */,
 				7FE9BE051E6981070058D294 /* HomeViewController.swift in Sources */,
 				7F16F5171EA0FAFA00943C28 /* FontExtension.swift in Sources */,
 				7F16F5261EA0FCFE00943C28 /* RootClass.swift in Sources */,
@@ -445,16 +469,20 @@
 				7F16F5151EA0FAFA00943C28 /* ImageView+Addition.swift in Sources */,
 				7F16F5221EA0FCE900943C28 /* User.swift in Sources */,
 				7F16F5311EA0FD5200943C28 /* PhotoManager.swift in Sources */,
+				7F2C9AD71EA1DD7F00401471 /* Employee.swift in Sources */,
+				7F2C9ADC1EA1E05300401471 /* PresentFilterViewController.swift in Sources */,
 				7FE9BDF31E697FC90058D294 /* SignUpTableViewController.swift in Sources */,
 				7F16F53D1EA0FD9500943C28 /* Async.swift in Sources */,
 				7F16F53C1EA0FD9500943C28 /* AppData.swift in Sources */,
 				7F16F5321EA0FD5200943C28 /* PIVCManager.swift in Sources */,
+				7F2C9ADE1EA1E06500401471 /* PushViewController.swift in Sources */,
 				7FE9BDF61E697FE40058D294 /* BaseTableViewController.swift in Sources */,
 				7FE9BE061E6981070058D294 /* MenuTableViewController.swift in Sources */,
 				7F16F5301EA0FD5200943C28 /* NetworkManager.swift in Sources */,
 				7F16F5251EA0FCFE00943C28 /* Policy.swift in Sources */,
 				7F16F5341EA0FD5200943C28 /* RealmManager.swift in Sources */,
 				7F16F5211EA0FCE900943C28 /* LoginRouter.swift in Sources */,
+				7F2C9AD81EA1DD7F00401471 /* EmployeeViewController.swift in Sources */,
 				7F16F5191EA0FAFA00943C28 /* String+Addition.swift in Sources */,
 				7F16F5291EA0FD2C00943C28 /* KeychainWrapper.m in Sources */,
 				7F16F5181EA0FAFA00943C28 /* Realm+Addition.swift in Sources */,

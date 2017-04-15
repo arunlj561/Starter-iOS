@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import AutoCoding
+
 
 class PIVCManager: NSObject {
     var currentUser : User?
@@ -22,9 +22,5 @@ class PIVCManager: NSObject {
         self.init()
     }
     
-    class func save(){
-      
-        
-        self.write(toFile:Utils.filePath(file: "/PIVC").path , atomically: true  )
-    }
+    
 }
